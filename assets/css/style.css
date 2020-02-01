@@ -11,6 +11,8 @@ a {
     text-decoration: none;
 }
 
+/* Navigation Bar */
+
 nav {
     padding: 1em 10em 1em 10em;
     background-color: #fff;
@@ -35,10 +37,38 @@ nav:hover {
 
 .nav-nav li {
     display: inline-block;
-    margin-right: 2em;
-    margin-top: 13px;
+    padding-right: 2em;
+    padding-top: 13px;
+    transition: background-image ease-in-out 1s;
+}
+
+.nav-nav li:hover {
+    background-image: url("../img/trace-de-peinture.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-nav li:hover a {
+    color: #cc8e35;
 }
 
 .nav-nav li a {
     font-size: 25px;
+}
+
+/* Header */
+
+header {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/51/Fr%C3%A9mainville_%2895%29%2C_ancienne_distillerie%2C_pr%C3%A8s_de_la_RD_43.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 55px;
+    padding: 3em 0 3em 0;
+    margin: 0;
 }
