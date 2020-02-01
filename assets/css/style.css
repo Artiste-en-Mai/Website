@@ -11,34 +11,34 @@ a {
     text-decoration: none;
 }
 
-header {
+nav {
     padding: 1em 10em 1em 10em;
-    background-color: #f1f2f6;
+    background-color: #fff;
     overflow: hidden;
     transition: background-color ease-in-out 1s;
 }
 
-header:hover {
-    background-color: #ced6e0;
+nav:hover {
+    background-color: #f1f2f6;
 }
 
-.header-logo {
+.nav-logo {
     width: 100px;
     display: inline-block;
     float: left;
 }
 
-.header-nav {
+.nav-nav {
     list-style: none;
     float: right;
 }
 
-.header-nav li {
+.nav-nav li {
     display: inline-block;
     margin-right: 2em;
     margin-top: 13px;
 }
 
-.header-nav li a {
+.nav-nav li a {
     font-size: 25px;
 }
