@@ -1,0 +1,15 @@
+/* IMPORT */
+@import url('https://fonts.googleapis.com/css?family=Finger+Paint&display=swap');
+
+body {
+    margin: 7em 0 7em 0;
+    font-family: 'Finger Paint', cursive;
+}
+
+img {
+    width: 20%;
+}
+
+h1, h2, p {
+    margin-top: 1em;
+}
