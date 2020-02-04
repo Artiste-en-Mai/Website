@@ -61,10 +61,14 @@ nav:hover {
 /* Header */
 
 header {
-    background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/51/Fr%C3%A9mainville_%2895%29%2C_ancienne_distillerie%2C_pr%C3%A8s_de_la_RD_43.jpg");
+    background-image: linear-gradient(to bottom, rgba(44, 47, 51, 0.5), rgba(44, 47, 51, 1)), url("https://upload.wikimedia.org/wikipedia/commons/5/51/Fr%C3%A9mainville_%2895%29%2C_ancienne_distillerie%2C_pr%C3%A8s_de_la_RD_43.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+header:hover {
+    background-image: linear-gradient(to bottom, rgba(44, 47, 51, 0.4), rgba(44, 47, 51, 1)), url("https://upload.wikimedia.org/wikipedia/commons/5/51/Fr%C3%A9mainville_%2895%29%2C_ancienne_distillerie%2C_pr%C3%A8s_de_la_RD_43.jpg");
 }
 
 header h1 {
@@ -72,6 +76,7 @@ header h1 {
     font-size: 55px;
     padding: 3em 0 3em 0;
     margin: 0;
+    color: #fff;
 }
 
 /* Fakes Body Settings */
@@ -80,21 +85,18 @@ header h1 {
     width: 1050px;
     margin: 0 auto;
     overflow: hidden;
-    background-color: red;
 }
 
 .fakebody-left {
     padding: 1em 0 1em 0;
     width: 690px;
     float: left;
-    background-color: saddlebrown;
 }
 
 .fakebody-right {
     padding: 1em 0 1em 0;
     width: 350px;
     float: right;
-    background-color: greenyellow;
 }
 
 /* Feed on Left */ 
@@ -105,9 +107,8 @@ header h1 {
 }
 
 .fakebody-left .feed .feed-text {
-    width: 390px;
+    width: 380px;
     float: right;
-    background-color: goldenrod;
 }
 
 .fakebody-left .feed .feed-text h1 {
@@ -127,6 +128,7 @@ header h1 {
 
 .fakebody-left .feed .feed-text .bar {
     margin: 5px 0 5px 0;
+    border: 1px solid #f1f2f6;
 }
 
 .fakebody-left .feed .feed-text a {
@@ -151,9 +153,8 @@ header h1 {
     margin: 10px;
 }
 
-/* Profil des Artistes */
+/* Feed Profil des Artistes */
 .fakebody-right .feed .feed-artistes {
-    background-color: teal;
 }
 
 .fakebody-right .feed .feed-artistes .feed-artistes-profile {
@@ -176,4 +177,17 @@ header h1 {
     float: right;
     margin-right: 10px;
     color: white;
+}
+
+/* Feed Maps */
+
+.fakebody-right .feed .feed-maps iframe {
+    border: 0;
+    width: 100%;
+    height: 157px;
+    transition: ease-in-out 2s;
+}
+
+.fakebody-right .feed .feed-maps:hover iframe {
+    height: 300px;
 }
