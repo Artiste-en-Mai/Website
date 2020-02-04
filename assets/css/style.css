@@ -85,7 +85,7 @@ header h1 {
 
 .fakebody-left {
     padding: 1em 0 1em 0;
-    width: 700px;
+    width: 690px;
     float: left;
     background-color: saddlebrown;
 }
@@ -146,7 +146,34 @@ header h1 {
 }
 
 .fakebody-left .bar {
-    width: 100%;
-    float: right;
+    width: 95%;
+    float: left;
     margin: 10px;
+}
+
+/* Profil des Artistes */
+.fakebody-right .feed .feed-artistes {
+    background-color: teal;
+}
+
+.fakebody-right .feed .feed-artistes .feed-artistes-profile {
+    width: 140px;
+    height: 50px;
+    background-color: #2C2F33;
+    border-radius: 20px;
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.fakebody-right .feed .feed-artistes .feed-artistes-profile .feed-artistes-profile-image img {
+    width: 50px;
+    display: inline-block;
+    float: left;
+    border-radius: 20px 0 0 20px;
+}
+
+.fakebody-right .feed .feed-artistes .feed-artistes-profile .feed-artistes-profile-name{
+    float: right;
+    margin-right: 10px;
+    color: white;
 }
