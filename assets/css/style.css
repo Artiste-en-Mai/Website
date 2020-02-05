@@ -1,9 +1,9 @@
 /* IMPORT */
-@import url('https://fonts.googleapis.com/css?family=Gochi+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
 body {
     margin: 0;
-    font-family: 'Gochi Hand', cursive;
+    font-family: 'Montserrat', sans-serif;
 }
 
 a {
@@ -154,11 +154,8 @@ header h1 {
 }
 
 /* Feed Profil des Artistes */
-.fakebody-right .feed .feed-artistes {
-}
-
 .fakebody-right .feed .feed-artistes .feed-artistes-profile {
-    width: 140px;
+    width: 150px;
     height: 50px;
     background-color: #2C2F33;
     border-radius: 20px;
@@ -179,6 +176,29 @@ header h1 {
     color: white;
 }
 
+/* Feed Download */
+.fakebody-right .feed .feed-download .feed-download-file {
+    width: 150px;
+    height: 50px;
+    background-color: #99AAB5;
+    border-radius: 20px;
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.fakebody-right .feed .feed-download .feed-download-file .feed-download-file-image img {
+    width: 50px;
+    display: inline-block;
+    float: left;
+    border-radius: 20px 0 0 20px;
+}
+
+.fakebody-right .feed .feed-download .feed-download-file .feed-download-file-name{
+    float: right;
+    margin-right: 10px;
+    color: white;
+}
+
 /* Feed Maps */
 
 .fakebody-right .feed .feed-maps iframe {
@@ -190,4 +210,32 @@ header h1 {
 
 .fakebody-right .feed .feed-maps:hover iframe {
     height: 300px;
+}
+
+/* Footer */
+footer {
+    background-color: #2C2F33;
+    width: 100%;
+    overflow: hidden;
+}
+
+footer .left {
+    margin: 3em;
+    float: left;
+}
+
+footer .left img {
+    width: 100px;
+}
+
+footer .right {
+    margin: 3em;
+    float: right;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+footer .right h1 {
+    align-items: center;
 }
