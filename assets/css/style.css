@@ -212,6 +212,12 @@ header h1 {
     height: 300px;
 }
 
+/* Agenda */
+.calendar {
+    width: 66em;
+    margin: 0 auto;
+}
+
 /* Footer */
 footer {
     background-color: #2C2F33;
