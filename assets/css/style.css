@@ -245,3 +245,84 @@ footer .right {
 footer .right h1 {
     align-items: center;
 }
+
+@media (max-width: 1056px) {
+    .fakebody {
+        width: 760px;
+    }
+
+    .fakebody-left {
+        float: none;
+        margin: 0 auto;
+    }
+
+    .fakebody-right {
+        float: none;
+        margin: 0 auto;
+    }
+    
+    .calendar {
+        width: 350px;
+        margin: 0 auto;
+    }
+
+    .calendar-img img {
+        width: 350px;
+        display: block;
+    }
+}
+
+@media (max-width: 760px) {
+    .nav-logo img {
+        float: none;
+        margin: 0 auto;
+        width: 100px;
+    }
+
+    .nav-nav li {
+        display: block;
+        padding: 0;
+        width: 100%;
+        margin: 0 auto;
+        transition: background-image ease-in-out 1s;
+    }
+
+    .fakebody {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .fakebody-left {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .fakebody-left .feed .feed-image {
+        display: block;
+        float: none;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .fakebody-left .feed .feed-image img {
+        float: none;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .fakebody-left .feed .feed-text {
+        float: none;
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    .calendar {
+        width: 350px;
+        margin: 0 auto;
+    }
+
+    .calendar-img img {
+        width: 350px;
+        display: block;
+    }
+}
