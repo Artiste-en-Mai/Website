@@ -99,7 +99,7 @@ header h1 {
     float: right;
 }
 
-/* Feed on Left */ 
+/* Feed on Left */
 
 .fakebody-left .feed .feed-image img {
     width: 300px;
@@ -216,6 +216,7 @@ header h1 {
 .calendar {
     width: 66em;
     margin: 0 auto;
+    margin-bottom: 5%;
 }
 
 /* Footer */
@@ -260,7 +261,7 @@ footer .right h1 {
         float: none;
         margin: 0 auto;
     }
-    
+
     .calendar {
         width: 350px;
         margin: 0 auto;
@@ -315,7 +316,7 @@ footer .right h1 {
         width: 90%;
         margin: 0 auto;
     }
-    
+
     .calendar {
         width: 350px;
         margin: 0 auto;
