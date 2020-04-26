@@ -25,6 +25,14 @@ h1 {
   width: 100%;
 }
 
+h2 {
+	text-align: center;
+	font-weigth: bold;
+	font-size: 200%;
+	margin-bottom: 0px:
+	padding-bottom: 0px;
+}
+
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
   .column {
